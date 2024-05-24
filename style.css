@@ -1,0 +1,90 @@
+body {
+    background-image: url(./images/forest.jpg);
+    background-size: 100%;
+    background-position: 0px -130px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: yellow;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-stretch: ultra-condensed;
+    font-size: 80px;
+    margin-left: 300px;
+    padding-bottom: 25px;
+}
+
+/* h1 {
+    border: 5px solid black;
+} */
+
+.save {
+    color: red;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.75px;
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+/* .save {
+    border: 5px solid black;
+} */
+/* 
+#yellowbox {
+    margin-left: 1050px;
+    padding:0;
+    margin: 0;
+    border: 0;
+} */
+
+
+.numberlist {
+    list-style: none;
+    background-color: rgb(255, 242, 0);
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 40px;
+    color: rgb(57, 57, 247);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 1050px;
+    top: 100px;
+}
+
+.lownum {
+    transform: scale(1, 0.75);
+    margin-top: 5px;
+}
+
+.lowestnum {
+    transform: scale(1, 0.9);
+    margin-top: 7px;
+}
+
+.tallnum {
+    transform: scale(1, 1.5);
+}
+
+.searchbar {
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+#searchicon {
+    height: 40px;
+    /* padding: 2px 0px 2px 2px; */
+    margin: 0;
+    color: grey;
+}
+
+#searchtext {
+    padding-right: 150px;
+    margin: 0;
+    color: gray;
+}

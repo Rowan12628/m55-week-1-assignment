@@ -1,10 +1,10 @@
 body {
     background-image: url(./images/forest.jpg);
     background-size: 100%;
-    background-position: 0px -130px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 
 h1 {
     color: yellow;
@@ -71,7 +71,7 @@ h1 {
 
 .facebooklogo {
     height: 40px;
-    position: fixed;
+    position: absolute;
     left: 1350px;
     top: 350px;
 }
@@ -118,4 +118,100 @@ h1 {
 
 #home {
     background-image: linear-gradient(to bottom, rgb(153, 198, 208), rgb(14, 91, 95), rgb(14, 91, 95));
+}
+
+.textbox {
+    background-color: rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    position: absolute;
+    top: 550px;
+    padding: 5px;
+}
+
+.welcome {
+    font-weight: lighter;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.toptext {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-stretch: ultra-condensed;
+    line-height: 5px;
+    margin-bottom: 50px;
+}
+
+.yellowtext {
+    color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-stretch: ultra-condensed;
+}
+
+.whitetext {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-stretch: ultra-condensed;
+}
+
+.mushrooms {
+    padding-right: 30px;
+}
+
+.myxomycetes {
+    padding-right: 150px;
+}
+
+.lichens {
+    padding-right: 250px;
+}
+
+.mosses {
+    padding-right: 225px;
+}
+
+.serifheader {
+    color: rgb(249, 225, 89);
+    font-size: 25px;
+    margin: 0;
+}
+
+.infotext {
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.orangeitalics {
+    color: orange;
+    font-style: italic;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 75px 0px 50px 0px;
+}
+
+.image {
+    border-radius: 100%;
+    height: 250px;
+    margin-left: 30px;
+}
+
+.imagetext {
+    margin: 0px 0px 0px 75px;
+    padding: 0px;
+}
+
+.redtext {
+    color: red;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
 }
